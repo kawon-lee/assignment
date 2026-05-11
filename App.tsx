@@ -80,7 +80,7 @@ function AppContent() {
       content.push(
         <View style={styles.card} key={i}>
           <ImageBackground
-            source={require('../../mars/assignment/ios/assignment/assets/images/bkimg.png')}
+            source={require('./assets/images/bkimg.png')}
             style={{
               height: 233,
               justifyContent: 'space-between',
